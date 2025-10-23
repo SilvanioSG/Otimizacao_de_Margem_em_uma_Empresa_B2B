@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Executivo — Silvanio Gois</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    /* 1. Tipografia e Cores de Base */
+    body {
+      font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f8fa;
+      color: #333333;
+      line-height: 1.6;
+    }
+    
+    /* Cores */
+    :root {
+      --primary-color: #1f3a55; /* Azul Marinho (Header/Footer) */
+      --secondary-color: #27628d; /* Azul Médio (Títulos) */
+      --accent-color: #00897B; /* Verde-Água (Destaque para Recomendações) */
+      --light-bg: #e0f7fa;
+    }
+
+    /* 2. Header Executivo */
+    header {
+      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+      border-bottom: 5px solid var(--accent-color);
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 4px solid #fff;
+    }
+    header h1 {
+      margin: 5px 0;
+      font-size: 2em;
+      font-weight: 700;
+    }
+    header h2 {
+      margin: 10px 0 0 0;
+      font-size: 1.3em;
+      font-weight: 400;
+      color: #c0deed;
+    }
+    header p {
+      margin: 4px 0;
+      font-size: 0.95em;
+    }
+    
+    /* 3. Main Content e Estrutura */
+    main {
+      max-width: 950px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      border-radius: 12px;
+    }
+    h2 {
+      color: var(--secondary-color);
+      border-left: 6px solid var(--secondary-color);
+      padding-left: 12px;
+      font-size: 1.5em;
+      margin-top: 45px;
+      font-weight: 700;
+    }
+    h3 {
+      color: var(--primary-color);
+      margin-top: 30px;
+      font-size: 1.2em;
+      border-bottom: 1px solid #eee; /* Linha sólida e discreta */
+      padding-bottom: 5px;
+      font-weight: 700;
+    }
+    p, li {
+      font-size: 1.0em;
+    }
+    
+    /* 4. Melhoria Visual das Listas (Profissional) */
+    ul {
+      list-style: none; /* Remove a marca padrão */
+      padding-left: 0;
+      margin: 15px 0 25px 0;
+    }
+    li {
+      padding-left: 20px;
+      position: relative;
+      margin-bottom: 10px;
+    }
+    li:before {
+      /* Estilo minimalista e profissional: um círculo discreto */
+      content: ""; 
+      background-color: var(--secondary-color); 
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%; 
+      position: absolute;
+      left: 0;
+      top: 8px; /* Ajuste vertical */
+    }
+
+    /* 5. Linha Divisória mais sutil */
+    .divider {
+      height: 1px;
+      background: #dddddd;
+      border: none;
+      margin: 40px 0;
+    }
+
+    /* 6. Box de Destaque para Recomendações (CRUCIAL) */
+    .recommendation-box {
+      background-color: var(--light-bg); 
+      border-left: 6px solid var(--accent-color); 
+      padding: 25px;
+      border-radius: 8px;
+      margin-top: 40px;
+    }
+    .recommendation-box h3 {
+      color: var(--accent-color);
+      border-bottom: none;
+      margin-top: 0;
+    }
+    /* Estilo diferente para os pontos no box de recomendações */
+    .recommendation-box ul li:before {
+        content: ""; 
+        background-color: var(--accent-color); 
+        width: 8px; /* Ligeiramente maior */
+        height: 8px;
+    }
+
+    /* 7. Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: var(--primary-color);
+      color: #fff;
+      font-size: 0.9em;
+      border-top: 5px solid var(--accent-color);
+    }
+    footer a {
+      color: #80CBC4;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    
+    /* 8. Responsividade */
+    @media (max-width: 768px) {
+      main {
+        padding: 20px;
+        margin: 20px 10px;
+      }
+      h2 {
+        font-size: 1.3em;
+        border-left: 4px solid var(--secondary-color);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Executivo.jpg" alt="Foto de Silvanio Gois">
+    <h1>Silvanio Gois</h1>
+    <h2>Análise Estratégica Aplicada: Otimização de Margem em uma Empresa B2B</h2>
+    <p>Técnico em Administração | Graduando em Processos Gerenciais</p>
+    <p>📧 sg@silvaniogois.com.br | 🌐 www.silvaniogois.com.br</p>
+  </header>
+  
+  <main>
+    <h2>Introdução e Cenário</h2>
+    <p>Este projeto demonstra minha capacidade de diagnóstico organizacional e de propor soluções <strong>integradas</strong> focadas no equilíbrio entre desempenho comercial e eficiência operacional. A análise simula o diagnóstico de uma PME do setor de serviços <strong>B2B (Business-to-Business)</strong> com desafios na manutenção da margem de lucro.</p>
+
+    <hr class="divider">
+    
+    <h2>Foco Comercial — Marketing e Vendas na Prática</h2>
+    <p>Busquei compreender a atuação de mercado, avaliando a eficácia da geração de receita e seu alinhamento com a capacidade de entrega.</p>
+    
+    <h3>Mix de Marketing (4 Ps) e Aplicação</h3>
+    <ul>
+      <li><strong>Produto/Serviço:</strong> Avaliação da proposta de valor, focando na diferenciação competitiva e ciclo de vida (Matriz <strong>BCG - Boston Consulting Group</strong>). <strong>Aplicação:</strong> Alinhamento do <em>roadmap</em> de produtos com a capacidade produtiva e de <strong>Supply Chain (Compras)</strong>.</li>
+      <li><strong>Preço:</strong> Análise da coerência entre valor percebido e estrutura de custos, visando otimização.</li>
+      <li><strong>Praça (Canais):</strong> Estudo da eficiência da distribuição, identificando gargalos na jornada do cliente.</li>
+      <li><strong>Promoção:</strong> Verificação do <strong>Retorno Sobre o Investimento (ROI)</strong> das campanhas. <strong>Aplicação:</strong> Implementação de um <strong>SLA (Service Level Agreement)</strong> entre Marketing e Vendas para garantir que a promessa de vendas seja realizável pela Operação.</li>
+    </ul>
+    
+    <p><strong>Diagnóstico Comercial Preliminar:</strong> Observou-se uma saturação no canal de 'Praça' e um <strong>Custo de Aquisição por Cliente (CAC) 18% acima</strong> da média do mercado, sugerindo ineficiência no funil de vendas.</p>
+    
+    <h3>KPIs de Performance Comercial Relevantes</h3>
+    <ul>
+      <li><strong>Crescimento de Receita (MRR/ARR):</strong> Evolução das vendas líquidas (Mensal/Anual Recorrente).</li>
+      <li><strong>Taxa de Retenção (Churn Rate):</strong> Indicador de fidelização e da qualidade do relacionamento pós-venda.</li>
+      <li><strong>Satisfação do Cliente (NPS):</strong> Grau de satisfação e propensão à recomendação (Net Promoter Score).</li>
+    </ul>
+
+    <hr class="divider">
+    
+    <h2>Foco Operacional — Produção, Compras e Eficiência</h2>
+    <p>O foco foi compreender a eficiência interna, a capacidade de execução dos processos e a gestão de custos, integrando as atividades de apoio.</p>
+    
+    <h3>Análise da Cadeia de Valor e Aplicação</h3>
+    <ul>
+      <li><strong>Processos de Produção/Entrega:</strong> Mapeamento do fluxo de valor (<strong>VSM - Value Stream Mapping</strong>) para eliminar desperdícios. <strong>Aplicação:</strong> Correlação do índice de retrabalho com a qualidade dos insumos, criando um KPI cruzado de <strong>Compras e Qualidade</strong>.</li>
+      <li><strong>Logística e Distribuição:</strong> Otimização da entrega ao cliente final. <strong>Aplicação:</strong> Revisão da gestão de fornecedores de transporte e definição de um <em>lead time</em> máximo, negociando SLAs de entrega em conjunto com o Comercial.</li>
+      <li><strong>Gestão de Recursos:</strong> Estudo detalhado da produtividade da equipe e controle de custos fixos e variáveis.</li>
+    </ul>
+    
+    <p><strong>Diagnóstico Operacional Preliminar:</strong> O mapeamento identificou que o <strong>Índice de Retrabalho (IR)</strong> atinge 12% em serviços críticos, impactando diretamente o Custo por Unidade e o <strong>Tempo de Ciclo</strong> de entrega.</p>
+
+    <h3>KPIs de Performance Operacional Relevantes</h3>
+    <ul>
+      <li><strong>Margem de Lucro Bruta/Líquida:</strong> Rentabilidade após a dedução dos custos operacionais.</li>
+      <li><strong>Custo por Unidade de Serviço (CPU):</strong> Medida de eficiência produtiva (Custo Por Unidade).</li>
+      <li><strong>Produtividade por Colaborador (PPC):</strong> Volume produzido ou entregue por hora/mês (Produtividade Por Colaborador).</li>
+      <li><strong>Índice de Retrabalho (IR):</strong> Controle da qualidade e despesas não planejadas.</li>
+    </ul>
+    
+    <hr class="divider">
+    
+    <h2>Síntese e Conclusões Estratégicas</h2>
+    <p>A análise demonstrou que o alto <strong>CAC</strong> está sendo exacerbado pelo alto <strong>CPU</strong> causado pelo <strong>Retrabalho</strong>, uma falha sistêmica que inicia na <strong>qualidade de Compras/Insumos</strong>. O equilíbrio entre as áreas é vital para a sustentabilidade da margem.</p>
+    
+    <div class="recommendation-box">
+      <h3>Recomendações Estratégicas para o Alinhamento</h3>
+      <ul>
+        <li>Fortalecer a sinergia entre Marketing e Produção, tornando o 'Índice de Retrabalho' uma métrica de bônus para a área comercial.</li>
+        <li>Criar um Comitê de <strong>S&OP (Sales and Operations Planning)</strong> para alinhar previsões de vendas de longo prazo (Comercial) com planos de capacidade de produção e aquisição (Compras/Operacional), otimizando o fluxo de caixa e o capital de giro.</li>
+        <li>Implementar rotinas de revisão de <strong>Key Performance Indicators (KPIs)</strong> trimestrais para alinhamento contínuo, focando na correlação <strong>CAC x CPU</strong>.</li>
+        <li>Investir em tecnologia (<strong>CRM - Customer Relationship Management</strong> / <strong>ERP - Enterprise Resource Planning</strong>) para ganho de agilidade e transparência na comunicação de ponta a ponta.</li>
+        <li><strong>Ação de Impacto Imediato:</strong> Redesenhar o processo de produção para reduzir o Retrabalho de 12% para 5% em 6 meses, o que projeta uma redução de 5% no CPU total.</li>
+      </ul>
+    </div>
+    
+    <p><em>Este projeto reflete minha visão de <strong>Gestão Integrada</strong>, onde decisões são baseadas em dados e buscam resultados sustentáveis e mensuráveis para a corporação.</em></p>
+  </main>
+  
+  <footer>
+    © 2025 Silvanio Gois — Portfólio de Gestão Estratégica | <a href="https://www.silvaniogois.com.br">Retornar ao site</a>
+  </footer>
+</body>
+</html>
